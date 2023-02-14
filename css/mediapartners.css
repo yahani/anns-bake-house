@@ -1,0 +1,18 @@
+.row{
+    display: flex;
+    justify-content: center;
+ }
+ .col-sm-2{
+  float: left;
+  padding: 12px;
+  width: 25%; 
+  text-align: center;
+ }
+ .img-responsive {
+   /* max-width:100%;
+    height:auto;*/
+    height: 40%;
+    width: 50%;
+    object-fit: contain;
+}
+ 
