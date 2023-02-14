@@ -429,6 +429,7 @@ section {
 }
 .speakers .thumb-wrap {
   max-width: 300px;
+  padding: 0 0 20px;
 }
 .speakers .thumb-wrap img {
   margin-bottom: 20px;
@@ -437,34 +438,17 @@ section {
   display: block !important;
 }
 
-.speaker-grid {
-  align-items: unset;
-}
 .speaker-grid .speaker-popup {
-  width: 100%;
-  margin-bottom: 20px;
+  width: 50%;
 }
 .speaker-grid .speaker-wrap {
   padding: 15px;
-  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.16);
-  border-radius: 10px;
-  height: 100%;
 }
 .speaker-grid .speaker-wrap h4 {
   margin-top: 15px;
 }
-.speaker-grid .speaker-wrap p {
-  font-size: 16px;
-  line-height: 1.5;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
 .speaker-grid .speaker-wrap small {
   font-size: 14px;
-  margin-bottom: 10px;
-  display: block;
 }
 .speaker-grid .speaker-wrap .learn-more {
   display: block;
