@@ -474,13 +474,10 @@ section {
   margin-top: 10px;
 }
 .speaker-grid .speaker-wrap .speaker-img {
-  border-radius: 50%;
+  border-radius: 10px;
   overflow: hidden;
   position: relative;
-  padding-bottom: 120px;
-  width: 120px;
-  margin: 0 auto;
-  border: 1px solid #eee;
+  padding-bottom: 100%;
 }
 .speaker-grid .speaker-wrap .speaker-img img {
   position: absolute;
