@@ -437,7 +437,12 @@ section {
 .speakers .speaker-popup {
   display: block !important;
 }
-
+.gallery-grid .gallery-wrap {
+  padding: 15px;
+}
+.gallery-grid .gallery-popup{
+  width: 50%;
+}
 .speaker-grid .speaker-popup {
   width: 50%;
 }
@@ -462,6 +467,23 @@ section {
   overflow: hidden;
   position: relative;
   padding-bottom: 100%;
+}
+.gallery-grid .gallery-wrap .gallery-img {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+.gallery-grid .gallery-wrap .gallery-img img {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  top: 0;
+  -webkit-transform: none;
+  transform: none;
+  width: 100%;
 }
 .speaker-grid .speaker-wrap .speaker-img img {
   position: absolute;
